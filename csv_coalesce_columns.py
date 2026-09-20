@@ -78,7 +78,7 @@ def read_csv(path: str, delimiter: str, clean: bool) -> pd.DataFrame:
         engine="python",
     )
     # Drop a BOM and surrounding whitespace so the header matches the names given on the command line.
-    df.columns = df.columns.str.replace("﻿", "").str.strip()
+    df.columns = df.columns.str.replace("\ufeff", "").str.strip()
     logging.debug("Column names: %s", [repr(column) for column in df.columns])
     return df
 
