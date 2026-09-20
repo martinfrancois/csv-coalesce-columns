@@ -4,6 +4,9 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+build/
+dist/
+*.egg-info/
 
 # Editors
 .idea/
@@ -12,5 +15,4 @@ venv/
 .DS_Store
 
 # Tool output
-*.cleaned
 output.csv
