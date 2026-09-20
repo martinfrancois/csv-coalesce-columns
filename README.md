@@ -1,4 +1,4 @@
-# csv-column-data-migrator
+# csv-coalesce-columns
 
 Fills one CSV column from whichever of several source columns is set, row by row.
 
