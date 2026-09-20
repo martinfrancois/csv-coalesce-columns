@@ -89,6 +89,6 @@ def main(input_csv: str, output_csv: str):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print("Usage: python fix_and_debug_createdAt.py <input.csv> <output.csv>")
+        print("Usage: python3 main.py <input.csv> <output.csv>")
         sys.exit(1)
     main(sys.argv[1], sys.argv[2])
