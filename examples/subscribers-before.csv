@@ -1,0 +1,7 @@
+email,name,Subscribed,Joined,createdAt
+user1@example.com,Alice Example,2024-01-15T09:30:00Z,,
+user2@example.com,Bob Example,,2024-02-20T14:05:00Z,
+user3@example.com,Carol Example,2024-03-01T08:00:00Z,2024-03-02T10:00:00Z,2023-12-31T00:00:00Z
+user4@example.com,Dan Example,,,2024-04-10T12:00:00Z
+user5@example.com,Eve Example,,,
+user6@example.com,"FrankExample",2024-05-05T05:05:05Z,,

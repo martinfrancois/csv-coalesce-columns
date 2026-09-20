@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Tool output
+*.cleaned
+output.csv
