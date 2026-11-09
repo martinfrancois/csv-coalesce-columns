@@ -1,0 +1,32 @@
+name: Bug report
+description: Report something the command doesn't do as documented.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Leave out real exports, contact data, private paths and personal data, also from logs. A few invented CSV rows that show the problem help most.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The `csv-coalesce-columns` command you ran and a small invented CSV that shows the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Version or commit, Python and pandas version, operating system, and anything else that matters here.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Output or logs
+      description: The command's output, with `--verbose` if it helps.
+      render: text
